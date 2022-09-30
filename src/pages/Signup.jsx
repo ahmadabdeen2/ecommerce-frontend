@@ -101,8 +101,8 @@ const Login = () => {
         <form className="mt-6">
          {FormFields.map(({label, type, setVal, index}) => {
             return (
-            <div key ={index}> ≈
-            <FormInput label={label} type={type} setVal={setVal} key={index} />;
+            <div key ={index}> 
+            <FormInput label={label} type={type} setVal={setVal} key={index} />
          </div>
           )})}
         </form>
